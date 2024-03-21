@@ -6,7 +6,12 @@ public class DOMAIN_CONSTANT {
            //"Veri/Nesne/denememetin.txt";
                         //M1K1Proje1/untitled/src/Veri/Nesne
     public final static String TRANSACTION_DATAPATH="src/Veri/Olaylar/";
-    public final static char USER_DATAFILE_SEPERATOR="|";   
+    public final static char USER_DATAFILE_SEPERATOR="|";
+
+
+
+    //İLETİŞİM SIK KULLANILANLAR
+    public final static String UNKNOWN_EXCEPTION="Anlamlandırılamayan bir hata oluştu.";
 
 
 

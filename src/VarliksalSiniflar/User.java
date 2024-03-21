@@ -31,7 +31,7 @@ public class User {
        try{
             FileWriter userFileWriter=new FileWriter(DOMAIN_CONSTANT.USERDATAPATH,true);
             //StringBuilder userStringBuilder=new StringBuilder();
-            String user=username+password+name+surname;
+            String user=username+"|"+password+"|"+name+"|"+surname+"|";
             userFileWriter.write(user);
             userFileWriter.write(System.lineSeparator());
                                                             
