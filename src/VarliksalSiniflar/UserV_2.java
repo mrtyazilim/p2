@@ -32,10 +32,18 @@ public class UserV_2 {
 
 
     }
-
+/*
 public void setDateTime(){
-    
+    nesede alan mı olsun tarih saat? 
+    evet ise şu an içinde olduğumuz metodda mı yoksa ekleme metodunda mı?
 }
+*/
+/*
+    public void addUser(){
 
+ekleme metodu nesne de mi olsun yoksa , has(instention yapan) sınıfından mı?
+    }
+
+    */
 
 }

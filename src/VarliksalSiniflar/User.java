@@ -20,8 +20,38 @@ public class User {
 
     enum gender {        Kadin,        Erkek    };
 
+    public void addUser(){
+        /** 
+        
+        @mrtyazilim
+        @addUser(), veriyi metin belgesine şu sıralamayka ekler:
+        username|password|name|surname|tckn|gender.
+
+        */
+       try{
+            FileWriter userFileWriter=new FileWriter(DOMAIN_CONSTANT.USERDATAPATH,true);
+            //StringBuilder userStringBuilder=new StringBuilder();
+            String user=username+password+name+surname;
+            userFileWriter.write(user);
+            userFileWriter.write(System.lineSeparator());
+                                                            
+                                                                                             
+        //
+       }
+        catch (FileNotFoundException fileNotFoundException)// buraya gerçekten gerek var mı bilemedim
+        {
+
+        }catch (IOException ioException){
+
+        }catch (Exception e){
+            System.out.println("Anlamlandırılamayan bir hata oluştu.");
+        }// burayı iyileştirmeli . şu an için ikisine de  print s t yapacağım galiba
 
 
+    }
+    
+
+    
 
 
 }
